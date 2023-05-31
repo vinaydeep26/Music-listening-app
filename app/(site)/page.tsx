@@ -1,5 +1,5 @@
 import Header from "@/components/Header";
-import ListItem from "@/components/Listitem";
+import ListItem from "@/components/ListItem";
 
 export default function Home() {
   return (
@@ -36,7 +36,7 @@ export default function Home() {
           >
             <ListItem 
               name="Liked Songs" 
-              image="/images/liked.png" 
+              image="/images/liked.jpg" 
               href="liked" 
             />
           </div>
