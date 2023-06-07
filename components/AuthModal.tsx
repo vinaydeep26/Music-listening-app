@@ -1,5 +1,5 @@
 "use client";
-
+import { UseBoundStore } from 'zustand';
 import { useSessionContext, useSupabaseClient } from '@supabase/auth-helpers-react';
 import Modal from './Modal';
 import { useRouter } from 'next/navigation';
